@@ -1,6 +1,11 @@
+body {
+  margin: 0;
+}
+
 .grid-container{
     display: grid;
-		grid-template-columns: auto auto;
+    grid-template-columns: auto auto;
+    grid-row-gap: 1em;
 }
 
 #backgroundImage{
@@ -114,4 +119,25 @@
 
 .headerh1 {
 	font-size:35px;
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 1em;
+}
+
+.growTogether {
+    width: 100%;
+    border: black;
+    padding: 180px;
+    margin: 150px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 14px; 
+}
+
+#growTogetherImg {
+  height:450px;
+  width:450px;
+  padding-top: 160px;
 }
