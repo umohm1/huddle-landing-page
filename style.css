@@ -159,33 +159,44 @@ body {
 
 .growTogether h2 {
   font-size: 26px;
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 700;
 }
 
 .growTogether p {
   color: darkgrey;
   font-size: 19px;
+  font-weight: 400;
 }
 
 .flowingConvo {
-    width: 100%;
+    width: 103%;
     border: black;
-    padding: 180px;
-    margin: 150px; 
+    padding: 146px;
+    margin: 134px;
+    margin-top: 114px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 14px; 
+    transform: translate(-4%, -50%);
 }
 
 #flowingConvoImg {
-  height:450px;
-  width:450px;
+  height: 450px;
+  width: 450px;
   padding-top: 160px;
+  position: inherit;
+  transform: translate(-44%, -44%);
 }
 
 .flowingConvo h2 {
   font-size: 26px;
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 700;
 }
 
 .flowingConvo p {
   color: darkgrey;
+  color: darkgrey;
   font-size: 19px;
+  font-weight: 400;
 }
