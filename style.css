@@ -6,6 +6,7 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     grid-row-gap: 1em;
+    padding-bottom: 30px;
 }
 
 #backgroundImage{
@@ -131,6 +132,7 @@ body {
     width: 100%;
     border: black;
     padding: 180px;
+    padding-bottom: 161px;
     margin: 150px; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 14px; 
@@ -140,4 +142,37 @@ body {
   height:450px;
   width:450px;
   padding-top: 160px;
+}
+
+.growTogether h2 {
+  font-size: 26px;
+}
+
+.growTogether p {
+  color: darkgrey;
+  font-size: 19px;
+}
+
+.flowingConvo {
+    width: 100%;
+    border: black;
+    padding: 180px;
+    margin: 150px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 14px; 
+}
+
+#flowingConvoImg {
+  height:450px;
+  width:450px;
+  padding-top: 160px;
+}
+
+.flowingConvo h2 {
+  font-size: 26px;
+}
+
+.flowingConvo p {
+  color: darkgrey;
+  font-size: 19px;
 }
