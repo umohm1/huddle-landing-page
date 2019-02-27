@@ -6,7 +6,7 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     grid-row-gap: 1em;
-    padding-bottom: 30px;
+    padding-bottom: 62px;
 }
 
 #backgroundImage{
@@ -114,7 +114,7 @@ body {
 
 #mockupSize {
 	height:570px;
-	width:777px;
+	width:790px;
 	padding-top: 30px;
 }
 
@@ -131,9 +131,10 @@ body {
 .growTogether {
     width: 100%;
     border: black;
-    padding: 180px;
+    padding: 160px;
     padding-bottom: 161px;
     margin: 150px; 
+    margin-left: 75px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 14px; 
 }
