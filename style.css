@@ -2,11 +2,19 @@ body {
   margin: 0;
 }
 
+#logo {
+  padding: 47px 0 0 22px;
+}
+
 .grid-container{
     display: grid;
     grid-template-columns: auto auto;
     grid-row-gap: 1em;
     padding-bottom: 62px;
+}
+
+.grid-container p {
+  font-family: 'Poppins', sans-serif;
 }
 
 #backgroundImage{
@@ -16,17 +24,17 @@ body {
 
 .headerDiv {
 	padding: 50px;
-	padding-top: 150px;
+  padding-top: 150px;
+  transform: translate(-1%, -17%);
 }
 
 .navButton {
   position:relative;
-  top:10px;
+  top:62px;
 	margin-left:790px;
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
-	box-shadow:inset 0px 1px 0px 0px #ffffff;
-
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9');
 	background-color:white;
 	-webkit-border-top-left-radius:20px;
@@ -49,10 +57,10 @@ body {
 	font-size:15px;
 	font-weight:bold;
 	font-style:normal;
-	padding-top:14px;
-	padding-bottom:14px;
-	padding-left:60px;
-	padding-right:60px;
+	padding-top:17px;
+	padding-bottom:17px;
+	padding-left:65px;
+	padding-right:65px;
 	text-decoration:none;
 	text-align:center;
 	text-shadow:1px 1px 0px #ffffff;
@@ -119,7 +127,9 @@ body {
 }
 
 .headerh1 {
-	font-size:35px;
+  font-size:42px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
 
 .grid-container-2 {
@@ -143,6 +153,8 @@ body {
   height:450px;
   width:450px;
   padding-top: 160px;
+  position: inherit;
+  transform: translate(-44%, -1%);
 }
 
 .growTogether h2 {
