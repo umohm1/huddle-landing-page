@@ -139,7 +139,8 @@ body {
 }
 
 .growTogether {
-    width: 157%;
+    width: 134%;
+    height: 15%;
     border: black;
     padding: 160px;
     padding-bottom: 161px;
@@ -151,11 +152,11 @@ body {
 }
 
 #growTogetherImg {
-  height:450px;
+  height:416px;
   width:450px;
-  padding-top: 160px;
+  padding-top: 158px;
   position: inherit;
-  transform: translate(62%, 0%);
+  transform: translate(44%, 0%);
 }
 
 .growTogether h2 {
@@ -171,14 +172,14 @@ body {
 }
 
 .flowingConvo {
-    width: 100%;
+    width: 125%;
     border: black;
     padding: 149px;
     margin: 134px;
     margin-top: 114px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 14px; 
-    transform: translate(-50%, -51%);
+    transform: translate(-58%, -51%);
 }
 
 #flowingConvoImg {
@@ -186,7 +187,7 @@ body {
   width: 450px;
   padding-top: 160px;
   position: inherit;
-  transform: translate(52%, -44%);
+  transform: translate(52%, -60%);
 }
 
 .flowingConvo h2 {
@@ -205,22 +206,22 @@ body {
 }
 
 .yourUsers {
-  width: 163%;
+  width: 140%;
   height: 160px;
   border: black;
   padding: 146px;
   margin: 134px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 14px; 
-  transform: translate(-1.5%, -104%);
+  transform: translate(-1.5%, -112%);
 }
 
 #yourUsersImg {
-  height: 350px;
-  width: 350px;
+  height: 375px;
+  width: 421px;
   padding-top: 160px;
   position: inherit;
-  transform: translate(-44%, -44%);
+  transform: translate(54%, -91%);
 }
 
 .yourUsers h2 {
