@@ -139,16 +139,15 @@ body {
 }
 
 .growTogether {
-    width: 134%;
-    height: 15%;
+    width: 71%;
     border: black;
-    padding: 160px;
-    padding-bottom: 161px;
+    padding: 124px;
+    padding-bottom: 140px;
     margin: 150px; 
     margin-left: 75px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 14px; 
-    transform: translate(3%, 0%);
+    transform: translate(3%, -5%);
 }
 
 #growTogetherImg {
@@ -172,14 +171,14 @@ body {
 }
 
 .flowingConvo {
-    width: 125%;
+    width: 68%;
     border: black;
-    padding: 149px;
+    padding: 146px;
     margin: 134px;
     margin-top: 114px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 14px; 
-    transform: translate(-58%, -51%);
+    transform: translate(-1.2%, -314%);
 }
 
 #flowingConvoImg {
@@ -206,14 +205,13 @@ body {
 }
 
 .yourUsers {
-  width: 140%;
-  height: 160px;
+  width: 68%;
   border: black;
   padding: 146px;
   margin: 134px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 14px; 
-  transform: translate(-1.5%, -112%);
+  transform: translate(-1%, -335%);
 }
 
 #yourUsersImg {
