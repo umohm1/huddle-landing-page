@@ -236,19 +236,20 @@ body {
 
 .getStarted {
   width: 819px;
-    height: 327px;
-    border: black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 14px;
-    transform: translate(50%, -335%);
+  height: 327px;
+  border: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 14px;
+  transform: translate(50%, -335%);
 }
 
 .getStarted p {
   color: black;
-  font-size: 36px;
+  font-size: 35px;
   font-weight: 600;
   padding: 98px;
   padding-left: 144px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .getStarted button {
@@ -278,11 +279,18 @@ body {
 	font-size:15px;
 	font-weight:bold;
 	font-style:normal;
-	padding-top:37px;
-	padding-bottom:37px;
+	padding-top:24px;
+	padding-bottom:24px;
 	padding-left:70px;
 	padding-right:70px;
 	text-decoration:none;
 	text-align:center;
-	text-shadow:1px 1px 0px #000000;
+  text-shadow:1px 1px 0px #000000;
+  transform: translate(94%, -96%);
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  display:inline-block;
 }
