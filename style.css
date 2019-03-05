@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box
 }
 
 #logo {
@@ -290,7 +292,25 @@ body {
 }
 
 .footer {
+  position: absolute;
+  width: 101%;
+  height: 77%;
   background-color: black;
-  color: white;
-  display:inline-block;
+}
+
+.footerLogo {
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-right: 10%;
+  margin: 0px, 0px, 50px, 100px;
+  color: rgb(255, 254, 254);
+}
+
+.footerContent {
+    padding-top: 10%;
+    color: white;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
