@@ -298,19 +298,21 @@ body {
   background-color: black;
 }
 
+.footerContent {
+  padding-top: 10%;
+  padding-left: 188px;
+  color: white;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
 .footerLogo {
   justify-self: center;
   display: grid;
   grid-template-columns: 1fr;
   padding-right: 10%;
-  margin: 0px, 0px, 50px, 100px;
-  color: rgb(255, 254, 254);
+  grid-row-gap: 20%;
 }
 
-.footerContent {
-    padding-top: 10%;
-    color: white;
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+
