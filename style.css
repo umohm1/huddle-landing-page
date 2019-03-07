@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box
 }
 
 #logo {
@@ -314,5 +313,3 @@ body {
   padding-right: 10%;
   grid-row-gap: 20%;
 }
-
-
